@@ -60,7 +60,6 @@
     if (self) {
         self.locationManager = [[CLLocationManager alloc] init];
         [self.locationManager setPurpose:@"WAA Test App"];
-        syntaxerror;
         self.locationManager.delegate = self; // Tells the location manager to send updates to this object
         __locationStarted = NO;
         __highAccuracyEnabled = NO;
