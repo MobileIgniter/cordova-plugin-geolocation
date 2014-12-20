@@ -59,7 +59,7 @@
     self = (CDVLocation*)[super initWithWebView:(UIWebView*)theWebView];
     if (self) {
         self.locationManager = [[CLLocationManager alloc] init];
-        [self.locationManager setPurpose:@"WAA Test App"];
+        [self.locationManager setPurpose:@"Your location is used to send alert notifications to keep you informed, prepared and protected."];
         self.locationManager.delegate = self; // Tells the location manager to send updates to this object
         __locationStarted = NO;
         __highAccuracyEnabled = NO;
